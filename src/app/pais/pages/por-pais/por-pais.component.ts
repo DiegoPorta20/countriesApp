@@ -13,6 +13,7 @@ export class PorPaisComponent {
   termino: string = ''
   hayError: boolean = false
   paises: Country[] = []
+  type: string = 'Buscar Pais ...'
   
   buscar( termino: string ){
     this.hayError = false
